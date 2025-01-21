@@ -309,17 +309,20 @@ h5{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin: 0px;
     }
     .header_content h1{
         font-size: 2.5em;
         font-weight: bolder;
         line-height: 1.2;
         margin-top: 70px;
+        width: 100%;
     }
     .header_content p{
         margin-top: 20px;
         letter-spacing: 0.9pt;
         font-weight: 500;
+        width: 100%;
     }
     .header_content button{
         height: 50px;
@@ -788,6 +791,6 @@ h5{
         gap: 15px;
     }
     #helpdesk{
-        text-decoration: underline;
+        text-decoration: none;
     }
 }
