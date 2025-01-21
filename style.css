@@ -271,7 +271,7 @@ h5{
 #helpdesk{
     text-decoration: underline;
 }
-@media (max-width: 998px) & (min-width: 480px){
+@media (max-width: 998px) and (min-width: 480px){
     header{
         background-color: #024052;
         color: white;
@@ -520,7 +520,7 @@ h5{
         text-decoration: underline;
     }
 }
-@media (max-width: 480px){
+@media (max-width: 500px){
     html{
         overflow-x: hidden;
     }
@@ -724,7 +724,7 @@ h5{
     .t_c_item p{
         margin-top: 20px;
         line-height: 1.5rem;
-        font-size: 0.5em;
+        font-size: 0.8em;
         font-weight: 400;
         opacity: 0.9;
     }
@@ -737,26 +737,26 @@ h5{
         justify-content: center
     }
     .footer_container{
-        min-width: 85%;
+        width: 85%;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
     }
     .footer p{
         width: 100%;
         color: white;
-        font-size: 12.5pt;
+        font-size: 10pt;
         font-weight: 900;
     }
     .footer a{
         color: white;
         text-decoration: none;
-        font-size: 8.5pt;
+        font-size: 7pt;
         font-weight: 600;
         letter-spacing: 0.5px;
     }
     .footer button{
-        width: 130px;
+        width: 100px;
         height: 40px;
         font-weight: 600;
         border-radius: 4px;
@@ -765,7 +765,11 @@ h5{
         max-width: 380px;
     }
     .footer_section_right{
+        width: 80%;
         margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
     }
     .footer_section_left p{
         font-size: 8pt;
@@ -777,9 +781,8 @@ h5{
     .footer_section{
         display: flex;
         flex-direction: column;
-        gap: 15px;
+        gap: 5px;
     }
-    
     #helpdesk{
         text-decoration: underline;
     }
