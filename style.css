@@ -7,6 +7,7 @@
 button{
     border: none;
     background-color: #F1C34E;
+    color: black;
 }
 button:hover{
     cursor: pointer;
@@ -568,7 +569,7 @@ h5{
         justify-content: center;
     }
     .header_content h1{
-        font-size: 2.5em;
+        font-size: 2.1em;
         font-weight: bolder;
         line-height: 1.2;
         margin-top: 70px;
@@ -580,6 +581,7 @@ h5{
         font-weight: 500;
         text-align: center;
         width: 90%;
+        font-size: 0.7em;
     }
     .header_content button{
         height: 40px;
@@ -621,32 +623,33 @@ h5{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 120px;
+        margin-top: 60px;
+        gap: 0px;
     }
     .second_content_header{
         display: flex;
         flex-direction: column;
-        align-items: center;
-    }
+        align-items: start;
+        margin-top: 10px;    }
     .second_content_header h1{
-        font-size: 28pt;
+        font-size: 1.6em;
         font-weight: 900;
     }
     .second_content_header p{
         margin-top: 15px;
         font-size: 10pt;
-        font-weight: 600;
-        text-align: center;
+        font-weight: 500;
     }
     .second_section{
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 75px;
-        margin-top: 80px;
+        margin-top: 40px;
     }
     .second_section img{
         min-width: 100%;
+        margin-top: -20px;
     }
     .second_content_right{
         display: flex;
@@ -655,45 +658,46 @@ h5{
     }
     .second_content_item h6{
         font-size: 12pt;
-        margin-bottom: 16px;
+        margin-bottom: 8px;
     }
     .second_content_item button{
         margin-top: 16px;
-        width: 120px;
-        height: 40px;
+        width: 160px;
+        height: 35px;
         font-weight: 600;
         border-radius: 3px;
     }
     .second_content_item p{
-        line-height: 25px;
+        font-size: 0.8em;
+        line-height: 20px;
     }
     .third_content{
-        margin: 100px 0px 100px 0px;
+        margin: 40px 0px 40px 0px;
         background-color: #EFF6FD;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     .third_content_header{
-        margin-top: 100px;
+        width: 85%;
+        margin-top: 40px;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
+        justify-self: start;
     }
     .third_content_header h1{
-        font-size: 2em;
-        max-width: 80%;
-        text-align: center;
+        font-size: 1.6em;
     }
     .third_content_header p{
         font-size: 10pt;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .third_content_items{
         display: grid; 
         grid-template-columns: 1fr; 
         gap: 25px; 
-        margin: 90px 0px 60px 0px;
+        margin: 30px 0px 60px 0px;
         width: 85%;
     }
     .t_c_item{
@@ -730,7 +734,7 @@ h5{
     }
     .footer{
         background-color: #024052;
-        padding: 80px 0px 80px 0px;
+        padding: 40px 0px 40px 0px;
         width: 100%;
         display: flex;
         align-items: center;
@@ -756,7 +760,7 @@ h5{
         letter-spacing: 0.5px;
     }
     .footer button{
-        width: 100px;
+        width: 160px;
         height: 40px;
         font-weight: 600;
         border-radius: 4px;
@@ -781,7 +785,7 @@ h5{
     .footer_section{
         display: flex;
         flex-direction: column;
-        gap: 5px;
+        gap: 15px;
     }
     #helpdesk{
         text-decoration: underline;
